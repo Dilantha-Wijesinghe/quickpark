@@ -8,9 +8,9 @@ async function bootstrap() {
   app.enableCors()
 
   const config = new DocumentBuilder()
-    .setTitle('Autospace | Karthick Ragavendran')
+    .setTitle('QuickPark | Dilantha Wijesinghe')
     .setDescription(
-      `The Autospace API.
+      `The QuickPark API.
 <h2>Looking for the graphql api?</h2>
 Go to <a href="/graphql" target="_blank">/graphql</a>.
 Or,
