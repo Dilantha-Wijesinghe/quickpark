@@ -1,6 +1,6 @@
-import { authOptions } from '@autospace/network/src/config/authOptions'
+import { createAuthOptions } from '@autospace/network/src/config/authOptions'
 import NextAuth from 'next-auth'
 
-const handler = NextAuth(authOptions)
+const handler = NextAuth(createAuthOptions('valet'))
 
 export { handler as GET, handler as POST }

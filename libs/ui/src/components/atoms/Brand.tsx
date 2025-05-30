@@ -17,7 +17,7 @@ export const Brand = ({
       <div className="text-xl ">
         {shortForm ? (
           <div className="flex gap-1">
-            <BrandIcon /> A.
+            <BrandIcon /> Q.
           </div>
         ) : (
           <div className="flex items-center gap-2 font-medium tracking-tighter font-playfair">

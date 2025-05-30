@@ -158,7 +158,7 @@ export const BookSlotPopup = ({
                                 {slot.type ? IconTypes[slot.type] : null}
                                 <div>
                                   <span className="text-lg font-bold">
-                                    ${slot.pricePerHour}
+                                    Rs. {slot.pricePerHour}
                                   </span>
                                   /hr
                                 </div>

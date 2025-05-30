@@ -170,7 +170,7 @@ export const AddSlots = () => {
             length: 10,
             width: 10,
             height: 10,
-            pricePerHour: 20,
+            pricePerHour: 500,
             count: 5,
             type: SlotType.Car,
           })

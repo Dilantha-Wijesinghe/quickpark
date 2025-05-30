@@ -18,8 +18,8 @@ Before you begin, ensure you have the following installed on your system:
 Clone the repository to your local machine using Git.
 
 ```bash
-git clone https://github.com/karthickthankyou/autospace-workshop.git
-cd autospace-workshop
+git clone https://github.com/Dilantha-Wijesinghe/quickpark.git
+cd quickpark
 ```
 
 ### 2. Install Dependencies

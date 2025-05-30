@@ -1,8 +1,8 @@
 import { LocationInfo } from './types'
 
 export const initialViewState = {
-  latitude: 40.7128,
-  longitude: -74.006,
+  latitude: 6.9271, // Colombo, Sri Lanka coordinates
+  longitude: 79.8612,
   zoom: 11.5,
 }
 
@@ -49,6 +49,6 @@ export const majorCitiesLocationInfo: LocationInfo[] = [
   },
 ]
 
-export const VALET_CHARGE_PER_METER = 0.005
+export const VALET_CHARGE_PER_METER = 1.5 // LKR per meter (was 0.005 USD)
 
 export const TAKE_COUNT = 12
